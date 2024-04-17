@@ -1,0 +1,488 @@
+
+.container-fluid a {
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+  }
+.dropdown-menu a{
+    color: black !important;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.bg{
+    background-color:#81b6b6!important;
+   
+}
+.ht100{
+    height: 100vh;
+}
+nav img{
+    width: 90px;
+    height: 70px;
+}
+
+.cont{
+    margin-top: 0px;
+    color: white;
+   
+}
+.cont h1{
+    font-size: 50px !important;
+}
+.but2{
+    background-color: transparent;
+    border: 1px solid white !important;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+button{
+    color: white !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
+.bg_img{
+    background-image: url("https://t4.ftcdn.net/jpg/02/92/20/37/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Why choose us */
+.wcu{
+    background-color: #F4D6D0;   
+    height: 100vh ;
+}
+ p{
+font-size: 20px;
+font-family: Robotic;
+}
+.wcu-card{
+    background-color: white;
+    color: #0E2D37;
+    text-align: center !important;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: 20px;
+}
+.wcu-card img {
+    height: 120px;
+    width: 120px;
+    mix-blend-mode: initial;
+}
+.hoving:hover{  
+    border: 2px solid black;
+    transition: all .5s ease-in-out;
+    background-color: rgb(99, 184, 189);
+}
+/* explore-menu */
+h1{
+    font-weight: bold;
+}
+.explore-menu {
+    background-color: #ffffff56;
+    position: relative !important;
+}
+.explore-menu-card{
+    /* background-color: #b3eae4;
+    color: #0E2D37;
+    text-align: center !important;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: 20px; */
+}
+.explore-menu-card img{
+    width: 300px;
+    height: 290px;
+    border-radius: 20px;
+}
+/* .explore-menu-card img:hover{
+  transition: transform 4s ease-in-out;
+  max-width: 100%;
+  height: auto;
+} */
+.explore-menu-card a{
+    color: #c938a9 !important;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.explore-menu-card-detail img{
+    width: 450px;
+    height: 350px;
+    border-radius: 20px;
+}
+.explore-menu-card-detail ul{
+    width: 470px;
+  }
+
+.explore-menu-card-detail li{
+  text-align: left;
+  font-size: 18px;
+  width: 180px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Deltailed-view-explore{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+.position-veg{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+.position-soup{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+.position-sea{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+.position-Maincourse{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+.position-Discretionary{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+.position-Salads{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+.position-Desserts{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color:#f09682;
+    position: absolute;
+    top: 18%;
+}
+
+
+
+
+.back{
+font-size: 30px;
+font-weight: bold;
+text-align: right !important;
+}
+.border-20{
+    border-radius: 20px;
+}
+.explore-menu-card-detail{
+    margin: 20px 0px !important;
+  }
+
+.arrow:hover{
+    transform: translateX(50%);
+    right: 15px;
+    transition: all .4s ease-in-out; 
+    }
+.box{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    scale: .25;
+    rotate: 0deg;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    text-align: center;
+}
+.box:hover{
+    color: white;
+    scale: 1;
+    rotate: 360deg;
+}
+
+/* Healthy-food */
+.Healthy-food{
+    background-color: #F4D6D0; 
+    height: 100vh;
+}
+.Healthy-food-img{
+/* width: 600px;
+height: 600px; */
+margin-right: 20px;
+mix-blend-mode: multiply;
+}
+
+/* Delivery */
+.Delivery{
+    background-color: #ffffff56; 
+    height: 100vh;
+}
+.Delivery-img {
+    height: 500px;
+    width: 500px;
+    margin-left: 20px;   
+}
+.payment-img img{
+    width: 70px !important;
+    height: auto !important;
+    margin: 5px;
+}
+
+/* Gift */
+.gift{
+    background-color: #F4D6D0; 
+    height: 100vh;
+}
+.gift-img {
+    mix-blend-mode: multiply;
+    height: auto;
+    width: 500px;
+}
+/* follow */
+.follow{
+    background-color: rgba(255, 255, 255, 0.363);
+    height: auto;
+    border-radius: 20px;
+}
+.follow h1{
+    color: #183153;
+}
+.follow-cont{
+    font-size: 28px !important;
+    padding: 5px;
+    color: #183153;
+}
+.txtend{
+    text-align: end;
+}
+.follow-cont:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.4);
+    transition: all .5s ease-in-out;
+    margin: 2px;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+}
+
+
+
+
+@media only screen and (max-width: 1500px){
+    .wcu{
+        background-color: #F4D6D0;   
+        height: auto;
+    }
+    .Healthy-food{
+        height: auto;
+        padding: 1rem;
+    }
+    .Delivery{
+        background-color: #ffffff56; 
+        height: auto;
+        padding: 1rem;
+    }
+    /* .mt20{
+        margin-top: 20px !important;
+    } */
+    .Delivery-img {
+        height: auto !important;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .payment-img img{
+        width: 50px !important;
+        height: auto !important;
+        margin: 5px;
+    }
+    .gift{
+        background-color: #F4D6D0; 
+        height: auto;
+    }
+    .gift-img {
+        mix-blend-mode: multiply;
+        height: auto;
+        width: 100% !important;
+    }
+  
+    
+
+}
+    
+
+
+@media only screen and (max-width: 780px){
+
+    .hide{
+        display: none !important;
+    }
+    nav img{
+        width: 70px;
+        height: 60px;
+    }
+    .cont h1{
+        font-size: 40px !important;
+    }
+    button{
+        color: white !important;
+        font-size: 18px !important;
+        font-weight: bold !important;
+    }
+    .wcu{
+        background-color: #F4D6D0;   
+        height: auto;
+    }
+    .Healthy-food{
+        height: auto;
+        padding: 1rem;
+        
+    }
+    .Delivery{
+        background-color: #ffffff56; 
+        height: auto;
+        padding: 1rem;
+    }
+    .Delivery-img {
+        height: auto !important;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .gift{
+        background-color: #F4D6D0; 
+        height: auto;
+    }
+    .gift-img {
+        mix-blend-mode: multiply;
+        height: auto;
+        width: 100% !important;
+    }
+    .txt_center{
+        text-align: center !important;
+    }
+    .explore-menu-card-detail img{
+        width: 80%;
+        height: auto;
+        border-radius: 20px;
+    }
+    .explore-menu-card-detail ul{    
+        width: 80%;
+      }
+      .explore-menu-card-detail{
+        margin: 20px 0px !important;
+        width: 80%;
+      }
+      .Deltailed-view-explore{
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        background-color:#f09682;
+        position: absolute;
+        top: 4%;
+    }
+    .position-veg{
+        position: absolute;
+        top: 16%;
+    }
+    .position-soup{
+        position: absolute;
+        top: 28%;
+    }
+    .position-sea{
+        position: absolute;
+        top: 40%;
+    }
+    .position-Maincourse{
+        position: absolute;
+        top: 52%;
+    }
+    .position-Discretionary{
+        position: absolute;
+        top: 64%;
+    }
+    .position-Salads{
+        position: absolute;
+        top: 76%;
+    }
+    .position-Desserts{
+        position: absolute;
+        top: 88%;
+        z-index: 999999;
+    }
+
+
+}
+
+/* 320 */
+@media only screen and (max-width: 440px){
+
+    .hide{
+        display: none !important;
+    }
+    .cont h1{
+        font-size: 30px !important;
+    }
+    button{
+        color: white !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+    }
+    .wcu{
+        background-color: #F4D6D0;   
+        height: auto;
+    }
+    .Healthy-food{
+        height: auto;
+        padding: 1rem;
+    }
+    .Delivery{
+        background-color: #ffffff56; 
+        height: auto;
+        padding: 1rem;
+    }
+    .mt20{
+        margin-top: 20px !important;
+    }
+    .Delivery-img img{
+        height: auto !important;
+        width: 100% !important;
+        margin-left: 0px;
+    }
+    .payment-img img{
+        width: 50px !important;
+        height: auto !important;
+        margin: 5px;
+    }
+    .gift{
+        background-color: #F4D6D0; 
+        height: auto;
+    }
+    .gift-img {
+        mix-blend-mode: multiply;
+        height: auto;
+        width: 100% !important;
+    }
+    .txt_center{
+        text-align: center !important;
+    }
+
+}
